@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    background-color: skyblue;
+    text-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 60px;
+}
+.CSK{
+    background-color: yellow;
+    padding-left: 50px;
+}
+.MI{
+    background-color: blueviolet;
+    padding-left: 50px;
+}
+.RCB{
+    background-color:brown;
+    padding-left: 50px;
+}
+@font-face {
+    font-family: tiro-tamil;
+    src: url("./fonts/Tiro_Tamil/");
+}
+#cskPara1{
+    font-family:tiro-tamil ;
+}
+@font-face {
+    font-family:Tiro Devanagari Marathi ;
+    src: url("./fonts/Tiro_Devanagari_Marathi/");
+}
+#miPara{
+
+    font-family: "Tiro Devanagari Marathi", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+    font-family:tiro-kannada ;
+    src: url("./fonts/Tiro_Kannada/");
+}
+#rcbPara{
+    font-family:tiro-kannada ;
+    font-style: italic;
+}
